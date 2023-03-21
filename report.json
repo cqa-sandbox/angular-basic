@@ -1,0 +1,204 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Hannah Zhu/Documents/CQA sandbox/angular-basic/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chromium",
+        "testDir": "C:/Users/Hannah Zhu/Documents/CQA sandbox/angular-basic/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Hannah Zhu/Documents/CQA sandbox/angular-basic/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "firefox",
+        "testDir": "C:/Users/Hannah Zhu/Documents/CQA sandbox/angular-basic/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Hannah Zhu/Documents/CQA sandbox/angular-basic/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "webkit",
+        "testDir": "C:/Users/Hannah Zhu/Documents/CQA sandbox/angular-basic/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "pw-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFolder": "pw-report",
+          "outputFile": "report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "C:\\Users\\Hannah Zhu\\Documents\\CQA sandbox\\angular-basic\\playwright.config.ts",
+    "rootDir": "C:/Users/Hannah Zhu/Documents/CQA sandbox/angular-basic/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.31.2",
+    "workers": 4,
+    "webServer": {
+      "command": "npm run start",
+      "port": 4200
+    }
+  },
+  "suites": [
+    {
+      "title": "playwright.spec.ts",
+      "file": "playwright.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "basic test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 4886,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-03-21T19:38:27.971Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Hannah Zhu\\Documents\\CQA sandbox\\angular-basic\\test-results\\playwright-basic-test-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30af7584f0f0ba46938c-4fc3b1eedb43cd97a88f",
+          "file": "playwright.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "basic test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 6980,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-03-21T19:38:27.940Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Hannah Zhu\\Documents\\CQA sandbox\\angular-basic\\test-results\\playwright-basic-test-firefox\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30af7584f0f0ba46938c-59f020e8613484c6887a",
+          "file": "playwright.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "basic test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 5286,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-03-21T19:38:28.042Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Hannah Zhu\\Documents\\CQA sandbox\\angular-basic\\test-results\\playwright-basic-test-webkit\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30af7584f0f0ba46938c-83282ed2499777803eca",
+          "file": "playwright.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
