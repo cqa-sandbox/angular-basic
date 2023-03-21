@@ -49,5 +49,5 @@ Thumbs.db
 /playwright-report/
 /playwright/.cache/
 /test-results/
-/playwright-report/
+/pw-report/
 /playwright/.cache/
