@@ -46,8 +46,5 @@ testem.log
 .DS_Store
 Thumbs.db
 /test-results/
-/playwright-report/
-/playwright/.cache/
-/test-results/
 /pw-report/
 /playwright/.cache/
