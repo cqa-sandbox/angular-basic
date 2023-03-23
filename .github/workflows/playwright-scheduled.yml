@@ -78,7 +78,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Notify dashboard repo
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DASHBOARD_REPORT_PAT }}
         run: |
           gh api repos/mspnp/intern-js-pipeline/dispatches \
               --raw-field event_type=rebuild-site
